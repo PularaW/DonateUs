@@ -1,0 +1,87 @@
+/* Googlefont Poppins CDN Link */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+:root {
+    --color-white: #fff;
+    --color-info-dark: #7d8da1;
+    --color-info-light: #dce1eb;
+    --color-dark: #363949;
+    --color-light: rgba(132, 139, 200, 0.18);
+    --color-primary-varient: #111e88;
+    --color-background: #f6f6f9;
+
+    --card-border-radius: 2rem;
+    --border-radius-1: 0.4rem;
+    --border-radius-2: 0.8rem;
+    --border-radius-3: 1.2rem;
+
+    --card-padding: 1.8rem;
+    --padding-1: 1.2rem;
+    --box-shadow: 0 2rem 3rem var(--color-light);
+    --dark-blue: #111e88;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+#section {
+    /*border: 1px solid black;*/
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+.section {
+    margin: 2rem 50px;
+    padding: 0 15rem;
+}
+
+.section h1 {
+    text-align: center;
+    padding: 10px;
+}
+
+.sec-chart {
+    width: 30%;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.sec-chart2 {
+    width: 50%;
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.main-container {
+    width: 100%;
+    position: relative;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    border: 1px solid black;
+}
+
+th, tr, td {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.sec-table {
+    display: flex;
+    justify-content: space-between;
+}
